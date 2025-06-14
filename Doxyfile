@@ -1,0 +1,22 @@
+
+# Doxyfile 1.9.1 for Task Manager C++ Project
+
+PROJECT_NAME           = "Task Manager GUI"
+OUTPUT_DIRECTORY       = ./docs
+INPUT                  = ./src ./include ./main.cpp ./tests
+RECURSIVE              = YES
+FILE_PATTERNS          = *.cpp *.h *.hpp
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_ANON_NSPACES   = YES
+GENERATE_HTML          = YES
+GENERATE_TREEVIEW      = YES
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+HAVE_DOT               = YES
+DOT_GRAPH_MAX_NODES    = 50
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
